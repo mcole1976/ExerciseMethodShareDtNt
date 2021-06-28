@@ -104,5 +104,14 @@ namespace ExerciseMethodShareDtNt.Properties {
                 return ResourceManager.GetString("XMLRuleCheckLoc", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to C:\Users\marcu\Documents\Code\ExerciseXML\RuleSet\ExerciseParadigm.xml.
+        /// </summary>
+        internal static string XMLRulesLoc {
+            get {
+                return ResourceManager.GetString("XMLRulesLoc", resourceCulture);
+            }
+        }
     }
 }

@@ -24,11 +24,44 @@ namespace ExerciseMethodShareDtNt
             return w;
         }
 
+        public static List<Exercise_Attribute> Basic_Rules()
+        {
+            string loc = Properties.Resources.XMLRulesLoc;
+
+
+            XElement xDoc = XElement.Load(loc);
+
+            List<Exercise_Attribute> ea = new List<Exercise_Attribute>();
+            IEnumerable<XElement> childList =
+            from el in xDoc.Elements()
+            select el;
+            foreach (XElement e in childList)
+            {
+                Exercise_Attribute attrib = new Exercise_Attribute();
+                List<Given_Rule> ev = new List<Given_Rule>();
+                attrib.Action = e.FirstAttribute.Value;
+                foreach (XElement e2 in e.Descendants())
+                {
+                    Given_Rule evI = new Given_Rule();
+
+                    evI.Rank = Convert.ToInt32(e.Element("scale").Value.ToString());
+                    evI.Match_Case = e.Element("class").Value.ToString();
+                    evI.Exercise = e.Element("workout").Value.ToString();
+                    attrib.Vals = evI;
+                    ea.Add(attrib);
+                }
+
+
+            }
+
+            return ea;
+        }
+
         public static Dictionary<string, string> fnSetDictionary()
         {
             Dictionary<string, string> workouts = new Dictionary<string, string>();
 
-            string[] workoutNames = Directory.GetFiles(Properties.Resources.XMLMainXMLLocation);
+            string[] workoutNames = Directory.GetFiles(Properties.Resources.XMLLibrary);
             foreach (string a in workoutNames)
             {
                 workouts.Add(a, a.Split('\\').Last());

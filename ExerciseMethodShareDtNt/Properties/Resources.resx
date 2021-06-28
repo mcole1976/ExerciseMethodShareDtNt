@@ -136,4 +136,8 @@
     <value>C:\Users\marcu\Documents\Code\ExerciseXML\RuleSet\JSON\RulestoCheck</value>
     <comment>Rule CheckLoc</comment>
   </data>
+  <data name="XMLRulesLoc" xml:space="preserve">
+    <value>C:\Users\marcu\Documents\Code\ExerciseXML\RuleSet\ExerciseParadigm.xml</value>
+    <comment>rule paradigm</comment>
+  </data>
 </root>
