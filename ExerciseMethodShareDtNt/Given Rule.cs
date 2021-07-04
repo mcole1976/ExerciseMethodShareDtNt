@@ -13,5 +13,7 @@ namespace ExerciseMethodShareDtNt
         public string Match_Case { get => _match_Category; set => _match_Category = value; }
         public int Rank { get => _rank; set => _rank = value; }
         public string Exercise { get => _exercise; set => _exercise = value; }
+
+
     }
 }
