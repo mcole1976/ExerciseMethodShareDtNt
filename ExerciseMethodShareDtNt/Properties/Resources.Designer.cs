@@ -61,7 +61,7 @@ namespace ExerciseMethodShareDtNt.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\marcu\Documents\Code\ExerciseXML\RuleSet\JSON\ResultBase.JSON.
+        ///   Looks up a localized string similar to C:\Users\marcus\Documents\Code\ExerciseXML\RuleSet\JSON\ResultBase.JSON.
         /// </summary>
         internal static string XMLBaseLoc {
             get {
@@ -70,7 +70,7 @@ namespace ExerciseMethodShareDtNt.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\marcu\Pictures\exercises\.
+        ///   Looks up a localized string similar to C:\Users\marcus\Pictures\exercises\.
         /// </summary>
         internal static string XMLExerciseLocation {
             get {
@@ -79,7 +79,7 @@ namespace ExerciseMethodShareDtNt.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\marcu\Documents\Code\ExerciseXML\WorkoutLibrary\.
+        ///   Looks up a localized string similar to C:\Users\marcus\Documents\Code\ExerciseXML\WorkoutLibrary\.
         /// </summary>
         internal static string XMLLibrary {
             get {
@@ -88,7 +88,7 @@ namespace ExerciseMethodShareDtNt.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\marcu\Documents\Code\ExerciseXML\.
+        ///   Looks up a localized string similar to C:\Users\marcus\Documents\Code\ExerciseXML\.
         /// </summary>
         internal static string XMLMainXMLLocation {
             get {
@@ -97,7 +97,7 @@ namespace ExerciseMethodShareDtNt.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\marcu\Documents\Code\ExerciseXML\RuleSet\JSON\RulestoCheck.
+        ///   Looks up a localized string similar to C:\Users\marcus\Documents\Code\ExerciseXML\RuleSet\JSON\RulestoCheck.
         /// </summary>
         internal static string XMLRuleCheckLoc {
             get {
@@ -106,7 +106,7 @@ namespace ExerciseMethodShareDtNt.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\marcu\Documents\Code\ExerciseXML\RuleSet\ExerciseParadigm.xml.
+        ///   Looks up a localized string similar to C:\Users\marcus\Documents\Code\ExerciseXML\RuleSet\ExerciseParadigm.xml.
         /// </summary>
         internal static string XMLRulesLoc {
             get {

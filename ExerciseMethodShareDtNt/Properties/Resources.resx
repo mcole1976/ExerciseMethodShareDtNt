@@ -118,26 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="XMLBaseLoc" xml:space="preserve">
-    <value>C:\Users\marcu\Documents\Code\ExerciseXML\RuleSet\JSON\ResultBase.JSON</value>
+    <value>C:\Users\marcus\Documents\Code\ExerciseXML\RuleSet\JSON\ResultBase.JSON</value>
     <comment>Base Loc</comment>
   </data>
   <data name="XMLExerciseLocation" xml:space="preserve">
-    <value>C:\Users\marcu\Pictures\exercises\</value>
+    <value>C:\Users\marcus\Pictures\exercises\</value>
     <comment>main loc for files</comment>
   </data>
   <data name="XMLLibrary" xml:space="preserve">
-    <value>C:\Users\marcu\Documents\Code\ExerciseXML\WorkoutLibrary\</value>
+    <value>C:\Users\marcus\Documents\Code\ExerciseXML\WorkoutLibrary\</value>
   </data>
   <data name="XMLMainXMLLocation" xml:space="preserve">
-    <value>C:\Users\marcu\Documents\Code\ExerciseXML\</value>
+    <value>C:\Users\marcus\Documents\Code\ExerciseXML\</value>
     <comment>main xml doc repository</comment>
   </data>
   <data name="XMLRuleCheckLoc" xml:space="preserve">
-    <value>C:\Users\marcu\Documents\Code\ExerciseXML\RuleSet\JSON\RulestoCheck</value>
+    <value>C:\Users\marcus\Documents\Code\ExerciseXML\RuleSet\JSON\RulestoCheck</value>
     <comment>Rule CheckLoc</comment>
   </data>
   <data name="XMLRulesLoc" xml:space="preserve">
-    <value>C:\Users\marcu\Documents\Code\ExerciseXML\RuleSet\ExerciseParadigm.xml</value>
+    <value>C:\Users\marcus\Documents\Code\ExerciseXML\RuleSet\ExerciseParadigm.xml</value>
     <comment>rule paradigm</comment>
   </data>
 </root>
