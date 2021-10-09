@@ -70,7 +70,7 @@ namespace ExerciseMethodShareDtNt.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\marcus\Pictures\exercises\.
+        ///   Looks up a localized string similar to C:\Users\Marcus\Pictures\Exercises.
         /// </summary>
         internal static string XMLExerciseLocation {
             get {
