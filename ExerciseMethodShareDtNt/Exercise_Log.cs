@@ -10,7 +10,6 @@ namespace ExerciseMethodShareDtNt
         public int Calorie_Count { get; set; }
         public DateTime Date { get; set; }
         public int Exercise_Time { get; set; }
-
-
+        public string Exercise_Name { get; set; }
     }
 }
